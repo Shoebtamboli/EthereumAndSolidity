@@ -1,6 +1,6 @@
 const HDWallerProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
-const {interface, bytecode} = require('../inbox/compile');
+const {interface, bytecode} = require('../Basic contract/compile');
 
 const provider = new HDWallerProvider(
     'bubble accuse fox sustain add fetch install question minor sunny easily kid',
